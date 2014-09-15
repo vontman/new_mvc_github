@@ -1,0 +1,90 @@
+*{
+        text-decoration:none;
+}
+.login
+{
+	width: 360px;
+        height: 255px;
+	margin:25px auto;
+	padding:0;
+	overflow:hidden;	
+	border-radius:10px 100px 10px 100px;
+        background: gray;
+}
+.login form
+{
+	margin:7% 0 0 12%;
+	padding:0;	
+}
+.login form .username
+{
+	padding:7px 27px 7px 35px;
+	margin:20px 0 0 30px;
+	border:0;
+	border-radius:3px;
+        background:#FFF url(../images/user.png) no-repeat left;
+        outline:0
+}
+.login form .password
+{
+	padding:7px 27px 7px 35px;
+	margin:10px 0 0 30px;
+	border:0;
+	border-radius:3px;
+        background:#FFF url(../images/pass.png) no-repeat left;
+        outline:0
+}
+.login form .re{
+        padding:7px 27px 7px 35px;
+	margin:10px 0 0 30px;
+}
+.login form .submit
+{
+	width:90px;
+	height:35px;
+	margin:10px 0 0 30px;	
+	border:0;
+	border-radius:3px;
+	background:#E25757;
+	color:#FFF;
+        cursor:pointer
+}
+.login form .submit:hover
+{
+	background:#C23636;
+	color:#FFF;
+}
+.login form a
+{
+	width: 85px;
+        height: 35px;
+        margin: 10px 0 0 0;
+        border: 0;
+        border-radius: 3px;
+        background: #B3C43D;
+        color: #FFF;
+        cursor: pointer;
+        position: absolute;
+        margin-left: 5px;
+        text-align: center;
+        line-height: 3;
+}
+.login form a:hover
+{
+	background:#90A30E;
+	color:#FFF;
+}
+.log_font{
+        font-family: monospace;
+        color: gold;
+        position: relative;
+        padding-left: 12px;
+        font-size: 16px;
+        font-weight: bold;
+}
+.log_font2{
+        line-height:33px;
+        position:absolute;
+        padding-left:5px;
+        color:whitesmoke;
+}

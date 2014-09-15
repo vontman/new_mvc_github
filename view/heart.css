@@ -1,0 +1,134 @@
+
+/*start heart*/
+#heart{
+            position: relative;
+            margin:0 auto; 
+            width: 73%;
+            float:right;
+            padding-top:9px;
+            text-overflow: ellipsis;
+}
+.sub {
+        position: relative;
+        padding-top: 8px;
+     }
+.sub h2{
+            border-bottom: 1px rgb(236,235,235) solid;
+            position: relative;
+            width: 690px;
+            padding-bottom: 12px; 
+            font-size:20px;
+            font-family:tahoma,geneva,sans-serif;
+            color:black;
+}
+.sub h1{
+            border-bottom: 1px rgb(236,235,235) solid;
+            position: relative;
+            width: 690px;
+            padding-bottom: 12px; 
+            font-size:24px;
+            font-family:tahoma,geneva,sans-serif;
+            color:black;
+}
+#topics{
+            position: relative;
+            height:541px;
+}
+#topics li{
+            position: relative;
+            border-bottom: 1px rgb(236,235,235) solid;
+            padding: 25px 15px 20px 16px;
+            display: block;
+            margin: 0px 0px 17px;
+            width: 650px;
+            height:187px;
+            float: left;
+}
+#topics li img{
+            float:left;	
+            width:220px;
+            height:177px;
+}
+#topics ul
+{
+            list-style-type: none;
+            position:relative;
+            padding: 0px;
+}
+#comments{
+            position:relative;
+            height: 532px;
+            width:370px;
+    
+}
+#comments li{
+            position: relative;
+            border-bottom: 1px rgb(236,235,235) solid;
+            padding: 10px 15px 20px 16px;
+            display: block;
+            margin: 0px 0px 7px;
+            width: 650px;
+            /*height: 126px;*/ 
+            float: left;
+}
+#comments ul
+{
+            list-style-type: none;
+            position:relative;
+            padding: 0px 15px 0px 1px;
+}
+.cont_3{
+            position: relative;
+            width:63%;
+            float:right;
+            padding-left:10px;
+    
+}
+.cont_3 h4{
+            color: #373737;
+            transition:all 0.5s ease;
+            font: normal 14px/21px Tahoma,Geneva,sans-serif;
+}
+.cont_3 h4:hover{      
+            color:#fc4403;
+            font: normal 14px/21px Tahoma,Geneva,sans-serif;
+}
+#comments h4{
+            color: #373737;
+            transition:all 0.5s ease;
+            font: normal 14px/21px Tahoma,Geneva,sans-serif;
+}
+#comments h4:hover{      
+            color:#fc4403;
+            font: normal 14px/21px Tahoma,Geneva,sans-serif;
+}
+#comments a{
+            color:#fc4403;
+            transition:all 0.5s ease;
+}
+#comments a:hover{
+            color: #333333;
+}
+.button{
+            position: relative; 
+            display: inline-block;
+            padding: 7px 10px 7px 10px;
+            color: #fff;
+            font-size: 14px;
+            line-height: 19px;
+            text-decoration: none;
+            border-radius: 3px;
+            font-family: Tahoma, Geneva, sans-serif;
+            background: #373737;
+            transition: all 0.5s ease;
+         
+        }
+.button:hover{  
+            background-color:rgb(245,65,2);
+}
+.butplace{
+            position: relative;
+            padding-left: 305px;
+            bottom:19px;
+}
+/*end heart*/

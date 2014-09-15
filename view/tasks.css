@@ -1,0 +1,12 @@
+.tasks_form{
+    width:100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+.tasks_form .tasks_ul{
+    width: 100%;
+}
+.tasks_form .tasks_ul li{
+    width: 85%;
+    list-style-type: none;
+}

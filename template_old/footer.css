@@ -1,0 +1,87 @@
+
+/*footer*/
+#footer{
+	position:relative;
+	width:960px;
+	height:350px;
+}
+#bottom{
+	position:relative;
+	height:350px;
+	width:inherit;
+	border-style:hidden;
+	overflow:hidden;
+	border-color:#333;
+	border-radius:0 0 6px 6px;
+}
+#cr{
+	position:relative;
+	height:30px;
+	width:inherit;
+        font-size:14px;
+	line-height:22px;
+        color:whitesmoke;
+}
+.bot{
+	position:relative;
+	width:240px;
+	height:inherit;
+	background:rgba(42, 42, 42,0.9);
+	float:left;	
+}
+#about img{
+    position: relative;
+    margin-left: 11px;
+}
+.readmore{
+	position:relative;
+	left:10%;
+	float:left;
+	color:#fc4403;
+	transition:all 0.3s ease;
+}
+.readmore:hover{
+	color:whitesmoke;
+}
+#bottom h5{
+	width:80%;
+	margin:10px auto;
+	padding-bottom:10px;
+	color:whitesmoke;
+	border-bottom:1px solid #666;
+	font-size:16px;	
+}
+#archives ul{
+	padding:5% 10%;	
+}
+#archives ul li{
+	width:80%;
+	list-style:none;
+	padding:4px;
+	color:#7A7A7A;
+	border-bottom:1px solid  #3E3E3E;
+	font-size:14px;
+}
+#archives ul li a{
+	transition:all 0.5s ease;	
+}
+#archives ul li a:hover{
+	color:whitesmoke;
+}
+#archives ul li a{
+	color:#999;
+}
+.bot p{
+	word-wrap: break-word;
+	max-height:76%;
+	max-width:80%;
+	margin:0 auto;
+	color:#999;
+	overflow:hidden;
+}
+#footer img{
+        position: relative;
+        width: 220px;
+        height: 112px;
+}
+/*END FOOTER */

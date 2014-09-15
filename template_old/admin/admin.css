@@ -1,0 +1,59 @@
+#table_users td{
+    font-size:14px;
+}
+.admin_form input,.admin_form textarea,.admin_form select{
+    margin:5px 10px;
+    font-size:14px;
+}
+#admin_span ul{
+    list-style: none;
+    margin-top:30px;
+}
+#admin_span ul li{
+    display:inline;
+    padding:0 25px;
+}
+#admin_span ul li a{
+    font-size:18px;
+    font-weight: bold;
+    border:0;
+    color:#464646;
+    background:#dddede;
+
+}
+#admin_span ul li input:hover{
+    cursor: pointer;
+}
+#admin_controls{
+    margin-top:35px;
+}
+#admin_controls .btn{
+    float:right;
+    width:130px;
+    height:45px;
+    font-weight: bold;
+    font-size:18px;
+}
+#admin_controls .text{
+    height:40px;
+    width:550px;
+    font-size:16px;
+    padding:10px;
+}
+#admin_controls .bigtext{
+    height:300px;
+    width:650px;
+    padding:10px;
+}
+#admin_controls font{
+    font-size: 14px;
+    font-weight: 600;
+}
+.users_btn{
+    font-size: 18px;
+    border: 0;
+    margin-top:10px;
+}
+.users_btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,210 @@
+
+.post{
+    font-size:18px;
+    text-align: left;
+    font-family:cursive;
+    font-weight: 100;
+    margin:10px 0;
+    width:95%;
+    border-radius:2px;
+    border-color:rgb(221, 226, 231);
+    border-style: solid;
+    line-height: 135%;
+    /*min-height:200px;*/
+}
+.post_title{
+    margin-top: 15px;
+    width:80%;  
+    position: relative;
+    border-bottom: 1px solid rgb(236,235,235);
+    background: whitesmoke;
+    float:right;
+}
+.post_title h2{
+    border-bottom: 1px rgb(236,235,235) solid;
+    position: relative;
+    margin:0 10px;
+    padding:8px 1px;
+    font-size:20px;
+    font-family:tahoma,geneva,sans-serif;
+    color:black;
+}
+.post_info{
+    color:black;
+    font-size:14px;
+    padding:0;
+}
+.post_info .writer_info{
+    width:100%;
+    background:rgb(221, 226, 231);
+}
+.post_info .writer_info font{
+    padding:0 5px;
+    font-family: sans-serif;
+    word-spacing: 5px;
+}
+
+.post_body{
+    
+    padding:10px 5px;
+    line-height: 135%;
+}
+.post_views{
+    position:absolute;
+    font-size:12px;
+    color:black;
+    background:rgb(221, 226, 231);
+    float:left;
+    /*bottom:0;*/
+}
+.post .btn{
+    float:right;
+}
+.sub {
+        position: relative;
+        border-bottom: 1px solid rgb(236,235,235);
+     }
+.sub h2{
+            border-bottom: 1px rgb(236,235,235) solid;
+            position: relative;
+            margin:0 10px;
+            padding:8px 1px;
+            font-size:20px;
+            font-family:tahoma,geneva,sans-serif;
+            color:black;
+}
+.sub h4{
+            border-bottom: 1px rgb(236,235,235) solid;
+            position: relative;
+            margin:0 10px;
+            padding:5px 1px;
+            font-size:16px;
+            font-family:tahoma,geneva,sans-serif;
+            color:black;
+}
+/*// Comments !!*/
+.comments_ul{
+    line-height: 145%;
+    letter-spacing: 1px;
+    font-size:16px;
+    text-align: left;
+    font-family:cursive;
+    font-weight: 100;
+    margin:40px 0;
+    padding:10px 0;
+    width:95%;
+}
+.comments{
+    margin-top:10px;
+    overflow:hidden;
+    position:relative;
+    border-radius:2px;
+    border-color:rgb(221, 226, 231);
+    border-style: solid;
+    list-style: none;
+    display:block;
+    background:rgb(221, 226, 231);
+}
+.comments_form{
+    width:80%;
+    /*margin-left:110px;*/
+    background:whitesmoke;
+    float:left;
+}
+.comments_body{
+    min-height:100px;
+    padding:55px 10px 10px 15px;
+}
+.comments .post_info{
+    margin-top:0;
+    color:#a4a4a4;
+    font-size:12px;
+    background:rgb(221, 226, 231);
+    padding:0;
+    line-height: 12px;
+}
+.comments .sub{
+    position:relative;
+    width:100%;
+    float:left;
+}
+.profile{
+    position:relative;
+    float:left;
+    width:120px;
+    padding:2px 5px;
+}
+.profile_pic{
+    width:108px;
+    height:108px;
+    padding:0;
+    margin:0;
+}
+/*// btn In General !!*/
+.btn{
+    font-size: 18px;
+    border: 0;
+    background:rgb(221, 226, 231);
+    font-size:18px;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+}
+/*// Add Reply !!*/
+.add_reply{
+    width:95%;
+    margin:50px 0;
+    border-top:1px groove rgb(221, 226, 231);
+}
+.add_reply font{
+    font-size: 16px;
+    line-height:30px;
+    font-weight: bold;
+}
+.add_reply .text{
+    margin:5px 0;
+    height:40px;
+    width:550px;
+    font-size:16px;
+    padding:10px;
+}
+.add_reply .bigtext{
+    margin:5px 0;
+    height:150px;
+    width:650px;
+    padding:10px;
+}
+.add_reply .btn{
+    float:right;
+    color:inherit;
+    margin-bottom:15px;
+}
+/*start heart*/
+#heart{
+            position: relative;
+            margin:0 auto; 
+            width: 73%;
+            float:right;
+            padding-top:9px;
+}
+/*END */
+.post_navigation{
+    margin:80px 10px 0px 0;
+}
+.post_navigation a{
+    font-weight: bold;
+    background:rgb(221, 226, 231);
+    font-family: cursive;
+    font-size:16px;
+}
+.post_navigation .arrows{
+    background:whitesmoke;
+    width:36px;
+    height:35px;
+    transition:all .5s ease;
+}
+.post_navigation .arrows:hover{
+    background:rgb(2, 148, 245);
+}
+

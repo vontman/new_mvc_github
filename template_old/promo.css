@@ -1,0 +1,127 @@
+
+/*Promo!! */
+#promo{
+	height:415px;
+	width:100%;
+	position:relative;
+	border-radius:5px;
+	border-color:transparent;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	margin:10px auto;
+	background:#414141;	
+}
+#photos{
+	position:relative;
+	height:80%;
+	width:100%;
+        -webkit-animation: slider 15s infinite;
+	-moz-animation: slider 15s infinite;
+	-o-animation: slider 15s infinite;
+	-ms-animation: slider 15s infinite;
+}
+@-webkit-keyframes slider{
+	0%, 10%,100%{ margin-left: 0; }
+	20%,30%{ margin-left: -962px; }
+	40%,50%{ margin-left: -1924px; }
+	60%,70%{ margin-left: -2886px; }
+	80%{ margin-left: 0; }
+}
+@-moz-keyframes slider{
+	0%, 10%,100%{ margin-left: 0; }
+	20%,30%{ margin-left: -1028px; }
+	40%,50%{ margin-left: -2056px; }
+	60%,70%{ margin-left: -3084px; }
+	80%{ margin-left: 0; }
+}
+@-o-keyframes slider{
+	0%, 10%,100%{ margin-left: 0; }
+	20%,30%{ margin-left: -1028px; }
+	40%,50%{ margin-left: -2056px; }
+	60%,70%{ margin-left: -3084px; }
+	80%{ margin-left: 0; }
+}
+@-ms-keyframes slider{
+	0%, 10%,100%{ margin-left: 0; }
+	20%,30%{ margin-left: -1028px; }
+	40%,50%{ margin-left: -2056px; }
+	60%,70%{ margin-left: -3084px; }
+	80%{ margin-left: 0; }
+}
+#larges{
+        position: relative;
+        width: 10000px;
+        height: 415px;
+        padding: 0;
+        overflow: hidden;
+        float: left;
+    
+}
+#larges img{
+        position: relative;
+        width: 960px;
+        height: 416px;
+}
+.large{
+       position: relative;
+       float: left;
+       width: initial;
+       height: 100%;
+       border-collapse: collapse;
+       border: 1px hidden transparent;
+       overflow: hidden;
+}
+#discription{
+	position: absolute;
+        float: right;
+        width: 270px;
+        height: 62%;
+        right: 0;
+        color: #000000;
+        text-align: center;
+        background: rgba(255,255,255,.7);
+        font-size: 12px;
+        font-weight: bold;
+        top: 80px;
+        right: 43px;
+}
+#discription h1 {
+        position: relative;
+        text-align: center;
+        padding-bottom: 8px;
+        height: 18px;
+        width: 100%;
+}
+#discription font {
+        position: relative;
+}
+#font_desc{
+        position: relative;
+        top: 19px;
+        height: 113px;
+}
+.button2{
+            position: relative; 
+            display: inline-block;
+            padding: 7px 10px 7px 10px;
+            color: #fff;
+            font-size: 14px;
+            line-height: 19px;
+            text-decoration: none;
+            border-radius: 3px;
+            font-family: Tahoma, Geneva, sans-serif;
+            background: #373737;
+            transition: all 0.5s ease;
+         
+        }
+.button2:hover{  
+            background-color:rgb(2, 148, 245);
+}
+.butplace2{
+            position: relative;
+            padding-top: 21px;
+            height: 34px;
+            width: 100%;
+}
+/* End Promo !! */

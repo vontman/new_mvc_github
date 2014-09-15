@@ -1,0 +1,79 @@
+*{
+	text-decoration:none;		
+}
+/*START body*/
+body
+{
+    background:black url(../images/bg.jpg) repeat;
+    color:rgb(0, 79, 131);
+}
+h2{
+    color:black;
+}
+#container{
+	width:960px;
+	margin:0 auto;
+	font: normal 12px/18px Tahoma,Geneva,sans-serif;	
+}
+#main{
+    width:100%;
+    height:auto;
+    margin:0px auto;
+    background-color:whitesmoke;
+    overflow:hidden;
+}
+/*start right button*/
+#butright{
+            position: fixed;
+            bottom: 172px;
+            left: 50%;
+            margin-left: 615px;
+}
+#buttop a{
+            width: 43px;
+            padding: 9px 0 9px;
+            display: block;
+            text-align: center;
+            font-size: 46px;
+            text-decoration: none;
+            color: #fff;
+            background: rgb(2, 148, 245);
+            transition: 1s;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+            float: left;
+            font-family: aharoni;
+}
+#buttop{
+            position: relative;
+            
+}
+#buttop a:hover{
+            background: #373737;
+}
+#butbot{
+            position: relative;
+}
+#butbot a{
+            width: 43px;
+            padding: 9px 0 9px;
+            display: block;
+            text-align: center;
+            font-size: 46px;
+            text-decoration: none;
+            color: #fff;
+            background: rgb(2, 148, 245);
+            transition: 1s;
+            border-bottom-right-radius: 24px;
+            border-bottom-left-radius: 24px;
+            float: left;
+}
+#butbot a:hover{
+            background: #373737;
+}
+/*end right button*/
+
+/* END body*/
+
+
+
