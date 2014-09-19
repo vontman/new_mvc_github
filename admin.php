@@ -4,7 +4,7 @@ ob_start();
 include 'template/functions.php';
 ?>
 <head>
-    <title>SoftEdition!!</title>
+    <title>SoftEdition</title>
     <link type="text/css" rel="stylesheet" href="template/style.css">
     <link type="text/css" rel="stylesheet" href="template/header.css">
     <link type="text/css" rel="stylesheet" href="template/footer.css">
