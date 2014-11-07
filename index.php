@@ -24,6 +24,7 @@
         <div id="main">
             <?php include 'view/news.php';?>
             <div id="heart">
+
                 <?php 
                 @$page = $_GET['page']; 
                 if($page == "index"||$page==""){ 

@@ -143,7 +143,7 @@
         }
         public function categories_array(){
             try{
-                return $this->categories_array("categories");
+//                return $this->categories_array("categories");
             } catch (Exception $ex) {
                 return $ex->getMessage();
             }

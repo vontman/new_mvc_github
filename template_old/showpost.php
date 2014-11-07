@@ -27,7 +27,7 @@
         else{
             $post_writer= $rows['writer'];
         }
-        $post_date=$rows['date'];
+        $created=$rows['date'];
         $post_body= nl2br($rows['body']);
         $post_views= $rows['views']+1;
     }
@@ -60,7 +60,7 @@
             <h2><?php echo $post_name;?></h2>
         </div>
         <image class='profile_pic' src='images/profile-icon.PNG'/>
-        <div class="writer_info"><?php echo "<font> By <a href='?user=".$post_writer."'>".$post_writer."</a> On ".$post_date."</font>";?></div>
+        <div class="writer_info"><?php echo "<font> By <a href='?user=".$post_writer."'>".$post_writer."</a> On ".$created."</font>";?></div>
     </div>
     <div class="post_body">
         <?php echo $post_body;?>

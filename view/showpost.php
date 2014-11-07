@@ -28,7 +28,7 @@
         $post_id =$rows_posts['id'];
         $post_name= $rows_posts['name'];
         $post_writer= $rows_posts['writer'];
-        $post_date=$rows_posts['date'];
+        $created=$rows_posts['date'];
         $post_body= htmlentities(nl2br($rows_posts['body']));
     }
 
@@ -64,7 +64,7 @@
             <h2><?php echo $post_name;?></h2>
         </div>
         <image class='profile_pic' src='images/profile-icon.PNG'/>
-        <div class="writer_info"><?php echo "<font> By <a href='?user=".$post_writer."'>".$post_writer."</a> On ".$post_date."</font>";?></div>
+        <div class="writer_info"><?php echo "<font> By <a href='?user=".$post_writer."'>".$post_writer."</a> On ".$created."</font>";?></div>
     </div>
     <div class="post_body">
         <?php echo $post_body;?>
